@@ -1,1 +1,2 @@
-# odin-landing-page
+# Odin Landing Page
+This project is part of the Odin Project and wraps up the HTML+CSS portion of the course. The task is to create the website from scratch based on an image providing the full design.
