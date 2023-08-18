@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* temporary */
+.header, .landing, .profiles, .quote, .signup, .footer,
+.landing-left, .landing-right, .signup-container {
+    flex: 1;
+    display: flex;
+    border: 2px solid black;
+}
+
+.top-container, .footer {
+    background-color: #1F2937;
+}
+
+.top-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.signup {
+    background-color: #3882F6;
+}
