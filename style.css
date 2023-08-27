@@ -35,6 +35,15 @@ p {
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.landing-right {
+    display: flex;
+}
+
 .landing p {
     color: #E5E7EB;
 }
@@ -46,7 +55,7 @@ p {
 .top-container {
     display: flex;
     flex-direction: column;
-    padding: 1em 12em 7em 12em;
+    padding: 2% 7% 5% 7%;
     gap: 7em;
 }
 
@@ -58,11 +67,13 @@ p {
 
 .landing {
     display: flex;
-    gap: 0.5em;
+    gap: 3em;
+    flex-wrap: wrap;
 }
 
 .landing-left {
     display: flex;
+    flex: 1 1 50%;
     flex-direction: column;
     gap: 0.5em;
 }
@@ -78,17 +89,28 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 8em 15em 6em 15em;
+    padding: 7% 8%;
     gap: 1em;
+}
+
+.signup-container {
+    display: flex;
+    padding: 8% 0;
+    justify-content: center;
+    align-items: center;    
 }
 
 .signup {
     background-color: #3882F6;
     display: flex;
-    margin: 7em;
-    padding: 3em 8em;
+    flex: 1;
+    /* margin: 6%; */
+    padding: 3% 6%;
     border-radius: 10px;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1em;
+    max-width: 73%;
 }
 
 .btn-1 {
@@ -129,6 +151,9 @@ p {
 
 .profile-container {
     display: flex;
+    width: 80%;
+    justify-content: space-around;
+    flex-wrap: wrap;
     gap: 3em;
 }
 
@@ -145,6 +170,7 @@ p {
     font-weight: 100;
     font-style: italic;
     color: #1F2937;
+    max-width: 75%;
 }
 
 .quote .quote-author {
@@ -175,6 +201,7 @@ p {
     font-size: 17px;
     font-weight: bold;
     padding: 0 2em;
+    min-height: 2em;
 }
 
 .footer {
